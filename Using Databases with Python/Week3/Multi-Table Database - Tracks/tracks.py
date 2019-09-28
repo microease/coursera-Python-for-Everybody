@@ -1,14 +1,15 @@
 import xml.etree.ElementTree as ET
 import sqlite3
-
-conn = sqlite3.connect('trackdb.sqlite')
-cur = conn.cursor()
+#connects to database, creates a sqlite file
+conn = sqlite3.connect('trackdb1.sqlite')
+cur  = conn.cursor()
 
 # Make some fresh tables using executescript()
 cur.executescript('''
 DROP TABLE IF EXISTS Artist;
 DROP TABLE IF EXISTS Album;
 DROP TABLE IF EXISTS Track;
+DROP TABLE IF EXISTS Genre;
 
 CREATE TABLE Artist (
     id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
@@ -22,12 +23,23 @@ CREATE TABLE Album (
 );
 
 CREATE TABLE Track (
-    id  INTEGER NOT NULL PRIMARY KEY 
+    id  INTEGER NOT NULL PRIMARY KEY
         AUTOINCREMENT UNIQUE,
     title TEXT  UNIQUE,
     album_id  INTEGER,
-    len INTEGER, rating INTEGER, count INTEGER
+    genre_id  INTEGER,
+    len INTEGER,
+    rating INTEGER,
+    count INTEGER
 );
+
+
+CREATE TABLE Genre (
+    id  INTEGER NOT NULL PRIMARY KEY
+    AUTOINCREMENT UNIQUE,
+    name    TEXT UNIQUE
+)
+
 ''')
 
 
@@ -45,9 +57,10 @@ def lookup(d, key):
             found = True
     return None
 
+#create element tree and find the branch
 stuff = ET.parse(fname)
 all = stuff.findall('dict/dict/dict')
-print('Dict count:', len(all))
+print ('Dict count:', len(all))
 for entry in all:
     if ( lookup(entry, 'Track ID') is None ) : continue
 
@@ -57,25 +70,32 @@ for entry in all:
     count = lookup(entry, 'Play Count')
     rating = lookup(entry, 'Rating')
     length = lookup(entry, 'Total Time')
+    genre_name = lookup(entry, 'Genre')
 
-    if name is None or artist is None or album is None : 
+    if name is None or artist is None or album is None or genre_name is None:
         continue
 
-    print(name, artist, album, count, rating, length)
+    print (name, artist,genre_name, album, count, rating, length)
 
-    cur.execute('''INSERT OR IGNORE INTO Artist (name) 
+    #insert data into table
+    cur.execute('''INSERT OR IGNORE INTO Artist (name)
         VALUES ( ? )''', ( artist, ) )
     cur.execute('SELECT id FROM Artist WHERE name = ? ', (artist, ))
     artist_id = cur.fetchone()[0]
 
-    cur.execute('''INSERT OR IGNORE INTO Album (title, artist_id) 
+    cur.execute('''INSERT OR IGNORE INTO Album (title, artist_id)
         VALUES ( ?, ? )''', ( album, artist_id ) )
     cur.execute('SELECT id FROM Album WHERE title = ? ', (album, ))
     album_id = cur.fetchone()[0]
 
-    cur.execute('''INSERT OR REPLACE INTO Track
-        (title, album_id, len, rating, count) 
-        VALUES ( ?, ?, ?, ?, ? )''', 
-        ( name, album_id, length, rating, count ) )
+    cur.execute('''INSERT OR IGNORE
+    INTO Genre(name)
+        VALUES (?)''', (genre_name, ))
+    cur.execute('SELECT ID FROM Genre WHERE name = ?', (genre_name, ))
+    genre_id = cur.fetchone()[0]
 
-    conn.commit()
+    cur.execute('''INSERT OR REPLACE INTO Track
+        (title, album_id, genre_id, len, rating, count)
+        VALUES ( ?, ?, ?, ?, ?, ? )''',
+        ( name, album_id, genre_id, length, rating, count ) )
+conn.commit()

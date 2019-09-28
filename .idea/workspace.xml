@@ -34,13 +34,14 @@
   <component name="PropertiesComponent">
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Using Databases with Python/Week1/Multi-Table Database - Tracks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Using Databases with Python/Week4/Many Students in Many Courses" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -60,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tracks">
+  <component name="RunManager" selected="Python.roster">
     <configuration name="emaildb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coursera-Python-for-Everybody" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,6 +76,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Using Databases with Python/Week1/Counting Email in a Database/emaildb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="roster" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="coursera-Python-for-Everybody" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Using Databases with Python/Week4/Many Students in Many Courses" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Using Databases with Python/Week4/Many Students in Many Courses/roster.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.roster" />
         <item itemvalue="Python.tracks" />
         <item itemvalue="Python.emaildb" />
       </list>
@@ -123,6 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569575374343</updated>
       <workItem from="1569575376076" duration="5752000" />
+      <workItem from="1569635479012" duration="1498000" />
     </task>
     <servers />
   </component>
@@ -134,14 +159,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$tracks.coverage" NAME="tracks Coverage Results" MODIFIED="1569583683131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Using Databases with Python/Week1/Multi-Table Database - Tracks" />
+    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$tracks.coverage" NAME="tracks Coverage Results" MODIFIED="1569637225470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Using Databases with Python/Week1/Multi-Table Database - Tracks" />
+    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$roster.coverage" NAME="roster Coverage Results" MODIFIED="1569645211396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Using Databases with Python/Week4/Many Students in Many Courses" />
     <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$emaildb.coverage" NAME="emaildb Coverage Results" MODIFIED="1569582242215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Using Databases with Python/Week1/Counting Email in a Database" />
   </component>
 </project>
