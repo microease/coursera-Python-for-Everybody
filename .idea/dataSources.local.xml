@@ -6,5 +6,10 @@
       <auth-required>false</auth-required>
       <schema-mapping />
     </data-source>
+    <data-source name="spider" uuid="78efdeee-7d1e-4639-a78e-72ac314d81c9">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <auth-required>false</auth-required>
+      <schema-mapping />
+    </data-source>
   </component>
 </project>
