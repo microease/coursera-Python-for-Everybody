@@ -1,0 +1,11 @@
+#1 and #3 need to show the output of spdump.py in Terminal including the number of rows retrieved, not the output of spider.py. The number of rows retrieved should be close to 100. #2 and #4 should have shown 25 nodes You can post a request on the forum explaining you've read the instructor note if you would like a reset.
+
+
+
+
+Instructor Note:
+Screenshots 2 & 4 should only show the output of gmodel and gbasic. We don't need to see the code. The gbasic screenshot should include the dump line and messages line. Screenshot 3 should not cut off the bottom of sqlite browser. When requesting a reset, please indicate that you have read and understood the instructor note.
+
+
+Instructor Note:
+Gbasic should include the entire output including the dump and messages lines. When requesting a reset, please indicate that you have read and understood the instructor note.
