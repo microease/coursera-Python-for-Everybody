@@ -67,7 +67,7 @@ class HTML5TreeBuilder(HTMLTreeBuilder):
         return '<html><head></head><body>%s</body></html>' % fragment
 
 
-class TreeBuilderForHtml5lib(html5lib.treebuilders.base.TreeBuilder):
+class TreeBuilderForHtml5lib(html5lib.treebuilders._base.TreeBuilder):
 
     def __init__(self, soup, namespaceHTMLElements):
         self.soup = soup
@@ -92,7 +92,7 @@ class TreeBuilderForHtml5lib(html5lib.treebuilders.base.TreeBuilder):
     def commentClass(self, data):
         return TextNode(Comment(data), self.soup)
 
-    def fragmentClass(self, BeautifulSoup):
+    def fragmentClass(self):
         self.soup = BeautifulSoup("")
         self.soup.name = "[document_fragment]"
         return Element(self.soup, self.soup, None)
@@ -105,7 +105,7 @@ class TreeBuilderForHtml5lib(html5lib.treebuilders.base.TreeBuilder):
         return self.soup
 
     def getFragment(self):
-        return html5lib.treebuilders.base.TreeBuilder.getFragment(self).element
+        return html5lib.treebuilders._base.TreeBuilder.getFragment(self).element
 
 class AttrList(object):
     def __init__(self, element):
@@ -134,9 +134,9 @@ class AttrList(object):
         return name in list(self.attrs.keys())
 
 
-class Element(html5lib.treebuilders.base.Node):
+class Element(html5lib.treebuilders._base.Node):
     def __init__(self, element, soup, namespace):
-        html5lib.treebuilders.base.Node.__init__(self, element.name)
+        html5lib.treebuilders._base.Node.__init__(self, element.name)
         self.element = element
         self.soup = soup
         self.namespace = namespace
@@ -321,7 +321,7 @@ class Element(html5lib.treebuilders.base.Node):
 
 class TextNode(Element):
     def __init__(self, element, soup):
-        html5lib.treebuilders.base.Node.__init__(self, None)
+        html5lib.treebuilders._base.Node.__init__(self, None)
         self.element = element
         self.soup = soup
 

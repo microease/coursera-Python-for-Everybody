@@ -30,7 +30,7 @@ if row is not None:
     print("Restarting existing crawl.  Remove spider.sqlite to start a fresh crawl.")
 else :
     starturl = input('Enter web url or enter: ')
-    if ( len(starturl) < 1 ) : starturl = 'http://www.szffmr.com/'
+    if ( len(starturl) < 1 ) : starturl = 'https://juejin.im/'
     if ( starturl.endswith('/') ) : starturl = starturl[:-1]
     web = starturl
     if ( starturl.endswith('.htm') or starturl.endswith('.html') ) :
@@ -84,7 +84,6 @@ while True:
         if 'text/html' != document.info().get_content_type() :
             print("Ignore non text/html page")
             cur.execute('DELETE FROM Pages WHERE url=?', ( url, ) )
-            cur.execute('UPDATE Pages SET error=0 WHERE url=?', (url, ) )
             conn.commit()
             continue
 

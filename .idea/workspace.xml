@@ -36,26 +36,26 @@
   <component name="PropertiesComponent">
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\coursera-Python-for-Everybody" />
+      <recent name="D:\coursera-Python-for-Everybody\Using Databases with Python\Week3" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github\coursera-Python-for-Everybody\Retrieving Processing and Visualizing Data with Python" />
       <recent name="D:\Github\coursera-Python-for-Everybody\Retrieving Processing and Visualizing Data with Python\Peer Grade Page Rank" />
       <recent name="D:\coursera-Python-for-Everybody\Using Databases with Python\Week5\Databases and Visualization\geodata" />
       <recent name="D:\coursera-Python-for-Everybody\Using Databases with Python\Week5\Databases and Visualization" />
       <recent name="D:\coursera-Python-for-Everybody\Using Databases with Python\Week4\Many Students in Many Courses" />
-      <recent name="C:\Users\micro\Documents\GitHub\coursera-Python-for-Everybody\Using Databases with Python\Week1\Multi-Table Database - Tracks" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Github\coursera-Python-for-Everybody" />
-      <recent name="D:\coursera-Python-for-Everybody\Using Databases with Python\Week3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -70,11 +70,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.spjson">
-    <configuration name="force.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/coursera-Python-for-Everybody/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank/force.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.gline.htm">
+    <configuration name="gline.htm" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/coursera-Python-for-Everybody/Retrieving Processing and Visualizing Data with Python/gmane/gline.htm" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="spdump" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gword.htm" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/coursera-Python-for-Everybody/Retrieving Processing and Visualizing Data with Python/gmane/gword.htm" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="gbasic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coursera-Python-for-Everybody" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,12 +85,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/gmane" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank/spdump.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/gmane/gbasic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gline" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coursera-Python-for-Everybody" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,12 +107,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/gmane" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank/spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/gmane/gline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spjson" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gword" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coursera-Python-for-Everybody" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,34 +129,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/gmane" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank/spjson.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sprank" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="coursera-Python-for-Everybody" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank/sprank.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/gmane/gword.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.spjson" />
-        <item itemvalue="Python.sprank" />
-        <item itemvalue="Python.spider" />
-        <item itemvalue="JavaScript Debug.force.html" />
-        <item itemvalue="Python.spdump" />
+        <item itemvalue="JavaScript Debug.gline.htm" />
+        <item itemvalue="Python.gline" />
+        <item itemvalue="Python.gbasic" />
+        <item itemvalue="JavaScript Debug.gword.htm" />
+        <item itemvalue="Python.gword" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +171,7 @@
       <workItem from="1572064440217" duration="9000" />
       <workItem from="1572316722243" duration="4975000" />
       <workItem from="1572327388016" duration="1007000" />
+      <workItem from="1574145273681" duration="7170000" />
     </task>
     <servers />
   </component>
@@ -210,14 +192,18 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$geoload.coverage" NAME="geoload Coverage Results" MODIFIED="1569697831609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Using Databases with Python/Week5/Databases and Visualization/geodata" />
-    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$sprank.coverage" NAME="sprank Coverage Results" MODIFIED="1572321356194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank" />
-    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$spider.coverage" NAME="spider Coverage Results" MODIFIED="1572321113503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank" />
+    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$sprank.coverage" NAME="sprank Coverage Results" MODIFIED="1574148720788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank" />
     <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$tracks.coverage" NAME="tracks Coverage Results" MODIFIED="1569637225470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Using Databases with Python/Week1/Multi-Table Database - Tracks" />
+    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$gbasic.coverage" NAME="gbasic Coverage Results" MODIFIED="1574152052857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/gmane" />
+    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$gmodel.coverage" NAME="gmodel Coverage Results" MODIFIED="1574149864844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/gmane" />
+    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$gword.coverage" NAME="gword Coverage Results" MODIFIED="1574151262857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/gmane" />
+    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$gline.coverage" NAME="gline Coverage Results" MODIFIED="1574152106235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/gmane" />
+    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$spdump.coverage" NAME="spdump Coverage Results" MODIFIED="1574148730328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank" />
+    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$geoload.coverage" NAME="geoload Coverage Results" MODIFIED="1569697831609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Using Databases with Python/Week5/Databases and Visualization/geodata" />
+    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$spider.coverage" NAME="spider Coverage Results" MODIFIED="1574148281932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank" />
     <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$roster.coverage" NAME="roster Coverage Results" MODIFIED="1569645566981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Using Databases with Python/Week4/Many Students in Many Courses" />
     <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$emaildb.coverage" NAME="emaildb Coverage Results" MODIFIED="1569582242215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Using Databases with Python/Week1/Counting Email in a Database" />
     <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$geodump.coverage" NAME="geodump Coverage Results" MODIFIED="1569697884697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Using Databases with Python/Week5/Databases and Visualization/geodata" />
-    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$spdump.coverage" NAME="spdump Coverage Results" MODIFIED="1572320424299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank" />
-    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$spjson.coverage" NAME="spjson Coverage Results" MODIFIED="1572321364522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank" />
+    <SUITE FILE_PATH="coverage/coursera_Python_for_Everybody$spjson.coverage" NAME="spjson Coverage Results" MODIFIED="1574148725635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Retrieving Processing and Visualizing Data with Python/Peer Grade Page Rank" />
   </component>
 </project>
