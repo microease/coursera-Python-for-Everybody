@@ -47,16 +47,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\coursera-Python-for-Everybody" />
+      <recent name="D:\coursera-Python-for-Everybody\Using Databases with Python\Week3" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github\coursera-Python-for-Everybody\Retrieving Processing and Visualizing Data with Python\gmane" />
       <recent name="D:\Github\coursera-Python-for-Everybody\Retrieving Processing and Visualizing Data with Python\Peer Grade Page Rank" />
       <recent name="D:\Github\coursera-Python-for-Everybody\Retrieving Processing and Visualizing Data with Python" />
       <recent name="D:\coursera-Python-for-Everybody\Using Databases with Python\Week5\Databases and Visualization\geodata" />
       <recent name="D:\coursera-Python-for-Everybody\Using Databases with Python\Week5\Databases and Visualization" />
-      <recent name="D:\coursera-Python-for-Everybody\Using Databases with Python\Week4\Many Students in Many Courses" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Github\coursera-Python-for-Everybody" />
-      <recent name="D:\coursera-Python-for-Everybody\Using Databases with Python\Week3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -194,7 +194,7 @@
       <workItem from="1574145273681" duration="7251000" />
       <workItem from="1574154102687" duration="11000" />
       <workItem from="1574232021134" duration="8216000" />
-      <workItem from="1574392232932" duration="9572000" />
+      <workItem from="1574392232932" duration="10141000" />
     </task>
     <servers />
   </component>
